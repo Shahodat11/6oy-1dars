@@ -3,7 +3,7 @@ footer {
     gap: 0px;
     opacity: 0px;
     flex-shrink: 0;
-    background: #191919;;
+    background: #191919;
     .footer-content {
         display: flex;
         gap: 30px;
