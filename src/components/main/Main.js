@@ -5,7 +5,7 @@ import mainLogo from "../images/main.png"
 function Main() {
   return (
     <div className='Main'>
-      <img src={mainLogo} alt="" />
+        <img src={mainLogo} alt="" />
     </div>
   )
 }

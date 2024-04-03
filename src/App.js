@@ -17,7 +17,6 @@ function App() {
       <ExploreXiaomi/>
       <XiaomiSupport/>
       <Footer/>
-      <h2>React.JS</h2>
     </div>
   );
 }
