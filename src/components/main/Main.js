@@ -1,8 +1,12 @@
 import React from 'react'
+import "./main.css"
+import mainLogo from "../images/main.png"
 
 function Main() {
   return (
-    <div>Main</div>
+    <div className='Main'>
+      <img src={mainLogo} alt="" />
+    </div>
   )
 }
 
