@@ -1,0 +1,9 @@
+.ExploreXiaomi{
+    display: flex;
+}
+.nav-link{
+    display: flex;
+}
+.card{display: flex;
+    border-radius: 5px;
+}

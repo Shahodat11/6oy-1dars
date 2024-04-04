@@ -6,9 +6,9 @@ import logo from "../images/Screenshot_5.png"
 
 function Navbar() {
   return (
-    <div className='navbar'>
+    <div className='Navbar'>
       <div className="container">
-          <ul class="nav-items" id="navbar-responsive">
+          <ul className='ul'>
         <li>
           <a href="#"><img src={logo} alt="" /></a>
         </li>

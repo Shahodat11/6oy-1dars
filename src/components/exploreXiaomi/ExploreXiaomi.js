@@ -1,8 +1,14 @@
 import React from 'react'
+import "./ExploreXiaomi"
 
 function ExploreXiaomi() {
   return (
-    <div>ExploreXiaomi</div>
+    <div className='ExploreXiaomi'>
+      <div className="container">
+        <div className="nav-link">
+        </div>
+      </div>
+    </div>
   )
 }
 

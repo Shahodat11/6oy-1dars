@@ -4,66 +4,48 @@ footer {
     opacity: 0px;
     flex-shrink: 0;
     background: #191919;
-    .footer-content {
-        display: flex;
-        gap: 30px;
-        padding-top: 104px;
-        padding-bottom: 92px;
-        .right-content {
-            width: Hug (1, 170px)px;
-            height: Hug (236px)px;
-            top: 80px;
-            gap: 87px;
-            opacity: 0px;
-            display: flex;
-            padding-left: 70px;
-
-            .right {
-                width: Hug (5px)px;
-                height: Hug (180px)px;
-                gap: 24px;
-                opacity: 0px;
-
-                h4 {
-                    font-family: Inter;
-                    font-size: 24px;
-                    font-weight: 700;
-                    line-height: 24px;
-                    letter-spacing: 0.03em;
-                    text-align: left;
-                    color: #FAFAFA;
-                }
-
-                h5 {
-                    font-family: Poppins;
-                    font-size: 16px;
-                    font-weight: 400;
-                    line-height: 24px;
-                    text-align: left;
-                    color: #FAFAFA;
-                    margin-top: 10px;
-
-                    .form input {
-                        font-family: Poppins;
-                        width: Fixed (217px)px;
-                        height: Hug (48px)px;
-                        padding: 12px 0px 12px 16px;
-                        gap: 32px;
-                        border-radius: 4px 0px 0px 0px;
-                        border: 1.5px 0px 0px 0px;
-                        opacity: 0px;
-                        outline: none;
-                        border-radius: 4px;
-                        background-color: #000000;
-                        border: 2px solid #FAFAFA;
-                        color: #FAFAFA;
-                    }
-                }
-
-                .h5 {
-                    margin-top: 24px;
-                }
-            }
-        }
-    }
 }
+.footer-content {
+    display: flex;
+    gap: 30px;
+    padding-top: 104px;
+    padding-bottom: 92px;
+}
+.right-content {
+    width: Hug (1, 170px)px;
+    height: Hug (236px)px;
+    top: 80px;
+    gap: 87px;
+    opacity: 0px;
+    display: flex;
+    padding-left: 70px;
+}
+.right {
+    width: Hug (5px)px;
+    height: Hug (180px)px;
+    gap: 24px;
+    opacity: 0px;
+}
+h4 {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #FAFAFA;
+}
+
+h5 {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #FAFAFA;
+    margin-top: 10px;
+}
+.h5 {
+    margin-top: 24px;
+}
+    
